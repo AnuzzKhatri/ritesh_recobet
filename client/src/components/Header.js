@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <h1>Ritesh_Recobet</h1>
+          <h1>AcroBet_Anuzzz</h1>
         </Link>
         <nav className="nav">
           <ul>
@@ -15,7 +15,7 @@ const Header = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="https://github.com/yourusername/pdf-editor" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/AnuzzKhatri/AcroBet_Anuzzz" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </li>

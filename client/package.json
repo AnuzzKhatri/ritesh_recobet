@@ -1,5 +1,5 @@
 {
-  "name": "ritesh-recobet",
+  "name": "acrobet-anuzzz",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Ritesh_Recobet - PDF Editor and Converter",
+  "description": "AcroBet_Anuzzz - PDF Editor and Converter",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -84,7 +84,7 @@ app.use('/api/pdf', pdfRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('Ritesh_Recobet API is running');
+  res.send('AcroBet_Anuzzz API is running');
 });
 
 // Error handling middleware

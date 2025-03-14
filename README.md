@@ -36,8 +36,8 @@ A modern web application for editing and converting PDF documents.
 
 1. Clone the repository:
 ```
-git clone https://github.com/AnuzzKhatri/ritesh-recobet.git
-cd ritesh-recobet
+git clone https://github.com/AnuzzKhatri/AcroBet_Anuzzz.git
+cd AcroBet_Anuzzz
 ```
 
 2. Install dependencies for both client and server:

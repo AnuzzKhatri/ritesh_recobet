@@ -1,5 +1,5 @@
 {
-  "name": "ritesh-recobet-server",
+  "name": "acrobet-anuzzz-server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "description": "Ritesh_Recobet Server - PDF Processing API",
+  "description": "AcroBet_Anuzzz Server - PDF Processing API",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",

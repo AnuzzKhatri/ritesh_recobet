@@ -59,7 +59,7 @@ const PDFEditor = ({ pdfFile, pdfName, onBack }) => {
             
             // Create a formatted HTML content with the PDF name and extracted content
             const formattedContent = `
-              <h1>Ritesh_Recobet - ${pdfName}</h1>
+              <h1>AcroBet_Anuzzz - ${pdfName}</h1>
               <p>This is an editable version of your PDF document: <strong>${pdfName}</strong></p>
               <p>You can modify this content using the editor tools above, and then export it back to PDF format.</p>
               <hr />
@@ -75,7 +75,7 @@ const PDFEditor = ({ pdfFile, pdfName, onBack }) => {
           
           // Fallback to placeholder content if extraction fails
           const placeholderContent = `
-            <h1>Ritesh_Recobet - ${pdfName}</h1>
+            <h1>AcroBet_Anuzzz - ${pdfName}</h1>
             <p>This is an editable version of your PDF document: <strong>${pdfName}</strong></p>
             <p>You can modify this content using the editor tools above, and then export it back to PDF format.</p>
             <hr />

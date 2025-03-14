@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p>&copy; {new Date().getFullYear()} Ritesh_Recobet. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} AcroBet_Anuzzz. All rights reserved.</p>
         <div className="footer-links">
           <a href="#" onClick={(e) => e.preventDefault()}>Privacy Policy</a>
           <a href="#" onClick={(e) => e.preventDefault()}>Terms of Service</a>
