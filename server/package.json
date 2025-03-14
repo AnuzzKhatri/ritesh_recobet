@@ -1,0 +1,30 @@
+{
+  "name": "ritesh-recobet-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "Ritesh_Recobet Server - PDF Processing API",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "html-pdf": "^3.0.1",
+    "html-to-pdf": "^0.1.11",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1",
+    "pdf2html": "^3.1.0",
+    "pdfjs-dist": "^4.10.38",
+    "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

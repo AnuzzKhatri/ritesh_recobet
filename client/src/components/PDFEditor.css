@@ -1,0 +1,285 @@
+.editor-page {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.editor-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.alert {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.alert-error {
+  background-color: #ffebee;
+  color: #c62828;
+  border-left: 4px solid #c62828;
+}
+
+.alert-success {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-left: 4px solid #2e7d32;
+}
+
+.editor-layout {
+  display: flex;
+  gap: 20px;
+  height: calc(100vh - 150px);
+  min-height: 600px;
+}
+
+.editor-wrapper {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-preview {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.pdf-preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.pdf-preview-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.pdf-preview-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.pdf-iframe {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: white;
+}
+
+.pdf-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.pdf-fallback-icon {
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.pdf-fallback h3 {
+  margin: 0 0 10px 0;
+  color: #424242;
+}
+
+.pdf-fallback p {
+  margin: 5px 0;
+  color: #616161;
+  max-width: 400px;
+}
+
+.pdf-fallback-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 16px;
+  color: #757575;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.loading::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border: 3px solid #e0e0e0;
+  border-top-color: #2196f3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 992px) {
+  .editor-layout {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .editor-wrapper, .pdf-preview {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .editor-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .editor-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .editor-actions button {
+    flex: 1;
+  }
+
+  .editor-wrapper, .pdf-preview {
+    height: 400px;
+  }
+}
+
+.pdf-extracted-content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.pdf-page {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.pdf-page h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.page-divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 30px 0;
+  position: relative;
+}
+
+.pdf-extracted-content span {
+  display: inline;
+  line-height: 1.5;
+}
+
+.pdf-extracted-content br {
+  display: block;
+  content: "";
+  margin-top: 5px;
+}
+
+/* Button styles */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1976d2;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #d5d5d5;
+}
+
+.btn:disabled {
+  background-color: #e0e0e0;
+  color: #9e9e9e;
+  cursor: not-allowed;
+  transform: none;
+} 
