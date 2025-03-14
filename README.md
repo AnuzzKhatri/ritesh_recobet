@@ -36,7 +36,7 @@ A modern web application for editing and converting PDF documents.
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/ritesh-recobet.git
+git clone https://github.com/AnuzzKhatri/ritesh-recobet.git
 cd ritesh-recobet
 ```
 
